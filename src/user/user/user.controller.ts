@@ -7,7 +7,7 @@ export class UserController {
 
     @Get('/sample')
     get(): string {
-        return 'This action returns all users';
+        return 'This action returns all sample';
     }
 
     @Get('/hello')
@@ -27,7 +27,7 @@ export class UserController {
 
     @Post()
     post(): string {
-        return 'This action adds a new user';
+        return 'This action to adds a new user';
     }
  
 }
